@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/lib/nodejs/node-v10.15.3/bin/node /usr/share/yarn/bin/yarn.js init =y
+
+PATH: 
+  /home/barth/.pyenv/plugins/pyenv-virtualenv/shims:/home/barth/.pyenv/shims:/home/barth/.pyenv/bin:/usr/lib/nodejs/node-v10.15.3/bin:/opt/gradle/gradle-5.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/sbin:/usr/sbin:/home/barth/Android/Sdk/tools:/home/barth/Android/Sdk/platform-tools:/home/barth/Android/Sdk/build-tools/28.0.3
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/share/yarn/lib/cli.js:136724:13)
+      at Interface.emit (events.js:189:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:189:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:189:13)
+      at addChunk (_stream_readable.js:284:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
